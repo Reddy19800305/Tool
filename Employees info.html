@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Employee INFO App</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+ 
+ 
+.tr, td, tble {
+  width: 30px;
+  height: 1px;
+  border: px solid gray;
+  border-radius: px;
+  border-top-color:;
+  text-align: center;
+  border-top-width: 0px;
+  border-bottom-width: 0px black;
+  
+}
+.box, tx{
+  border: 5px solid red;
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 01px;
+  text-align: center
+}
+button {
+      border: none;
+      background: #0076ff;
+      border-radius: 4px;
+      padding: 5px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+  
+  .box1{
+   border: 20px solid chocolate;
+  width:300px;
+  height: 650px;
+  border-radius: 0%;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px;
+border-bottom-width: 40px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+border-top-width: 50px;
+   }
+  .a1,th{
+    background-color: white;
+    border-radius: 0px;
+    width: 80px;
+    height: 80px;
+    border: 0px solid lightsalmon;
+    border-color: seagreen;
+    padding-top: px;
+    margin-top: 0%;
+  }
+ .a2 th{
+   background-color: violet;
+    border-radius: 10px;
+    width: 300px;
+    height: 20px;
+    border: 10px  greenyello;
+   
+ }
+  .tr,mg{
+  width: 80px;
+  height: 80px;
+  border: 9px solid gold;
+  border-radius: 50%;
+}
+   body {
+            display: flx;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #567890;
+            color: blue;
+            font-family: Arial, sans-serif;
+        }
+        .watch {
+            font-size: 50px;
+            border: 10px solid red;
+            padding: 5px;
+            border-radius: 20px;
+        } 
+ </style>
+ </head>
+ <body bgcolor="green">
+  <center>
+  <div class="box1"> <table bgcolor="orange" border="1" bordercolor="olivedrab" style="border-style: groove;">
+    
+     <tr class="a1">
+      <th colspan="5"> <div class="watch" id="clock">00:00:00</div>
+
+    <script>
+        function updateClock() {
+            let now = new Date();
+            let hours = String(now.getHours()).padStart(2, '0');
+            let minutes = String(now.getMinutes()).padStart(2, '0');
+            let seconds = String(now.getSeconds()).padStart(2, '0');
+            document.getElementById('clock').innerText = `${hours}:${minutes}:${seconds}`;
+        }
+        setInterval(updateClock, 1000);
+        updateClock(); // Initial call
+    </script> </th>
+     </tr>
+     <tr class="a2">
+      <th colspan="5" bgcolor="skyblue"><font size="4" color="teal"><marquee scrlloamount="" bgcolor="yellow" hspace="1" direction="top" behavior="">
+          తెలంగాణ రాష్ట్ర రోడ్డు రవాణా సంస్థ పైన షేర్ ఆప్షన్ ఉన్నది మన ఉద్యోగులందరికీ షేర్  చేయగలరు 
+        </marquee></font></th>
+     </tr>
+     <tr>
+      <td colspan="4" bgcolor="blue"><font color="white" size="3">
+        
+        <h4 style="coler: white">1-TGSRTC<BR>CCS Information <span>☛</span></h4>
+        <h1></h1></font></td>
+ <td bgcolor="yellow "><a href="http://www.tgsrtcinfo.in/ccsinfo/index.php">
+<font size="4" color="green"></font>
+        <div class="box">
+         <h4><button>CLICK ME</button></h4>
+        </div></a></td>
+     </tr>
+     <tr>
+      <td colspan="4" bgcolor="teal"><font color="white" size="2">
+        
+        <h3 style="coler: red">2-TGSRTC<BR>EPF TRUST Information <span>☛</span></h3></font></td>
+      <td bgcolor="yellow"><a href="http://www.tgsrtcinfo.in/tspfweb/pfstf.html"><font size="4">
+         <div class="box">
+          <h4><button>CLICK ME</button></h4>
+         </div></font></a></td>
+     </tr>
+     <tr>
+      <td colspan="4" bgcolor="#282c34"><font size="3" color="white">
+        <h4 style="coler: red">3-TGSRTC<BR>Crew Duty Information <span>☛</span></h4></font></td>
+      <td bgcolor="yellow"><a href="http://www.tgsrtcinfo.in/main/dm_award/perf.php">
+        <div class="box">
+         <h4><button>CLICK ME</button></h4>
+        </div></a></td>
+     </tr>
+     <tr>
+      <td colspan="4" bgcolor="teal"><font color="white" size="3">
+       <h3>4-TGSRTC<BR>Higher Pension <span>☛</span></font></td>
+      <td bgcolor="yellow"><a href="https://unifiedportal-mem.epfindia.gov.in/memberInterfacePohw/">
+     <div class="box">
+         <h4><button>CLICK ME</button></h4>
+        </div></a></td>
+     </tr>
+<tr>
+      <td colspan="4" bgcolor="blue"><font color="white" size="3">
+       <h3>5-TGSRTC<BR>SRBS status <span>☛</span></font></td>
+      <td bgcolor="yellow"><a href="http://www.tgsrtcinfo.in/main/mo_srbs/index.php">
+     <div class="box">
+         <h4><button>CLICK ME</button></h4>
+        </div></a></td>
+     </tr>
+<tr>
+      <td colspan="4" bgcolor="teal"><font color="white" size="3">
+        
+        <h4 style="coler: white">6-Rited Pension<BR>PPO Information <span>☛</span></h4>
+        <h1></h1></font></td>
+ <td bgcolor="yellow "><a href="https://mis.epfindia.gov.in/PensionPaymentEnquiry/enquiry.jsp">
+<font size="4" color="green"></font>
+        <div class="box">
+         <h4><button>CLICK ME</button></h4>
+        </div></a></td>
+     </tr>
+
+
+   </table>
+  </center>
+  </div>
+ </body>
+</html>
